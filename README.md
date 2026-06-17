@@ -203,14 +203,6 @@ Product category popularity during festival periods (ranked by order volume):
 
 ## ✨ Getting Started
 
-### **Prerequisites**
-
-- **Microsoft Excel 2016** or newer (recommended: 2019/365)
-- Alternative: **Google Sheets** (limited functionality)
-- Alternative: **LibreOffice Calc** (compatible with some limitations)
-- Minimum: **100 MB** free disk space
-- Screen resolution: **1920x1080** recommended for dashboard
-
 ### **Installation Steps**
 
 1. **Clone/Download Repository**
