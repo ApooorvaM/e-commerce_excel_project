@@ -172,3 +172,87 @@ This project delivers an **advanced Excel-based analytics platform** designed to
 ---
 
 ## 📁 File Structure
+
+
+### **Sheet Descriptions**
+
+| Sheet Name | Purpose | Key Content |
+|-----------|---------|---------|
+| **Raw Data** | Data source | Transaction IDs, dates, amounts, customer IDs |
+| **Customer Data** | Customer information | ID, name, location, segment, lifetime value |
+| **Product Catalog** | Product information | SKU, name, category, price, cost, supplier |
+| **Sales Transactions** | Detailed order records | Order date, customer, product, quantity, amount |
+| **Calculations** | Metrics & KPIs | Formulas, aggregations, summaries, ratios |
+| **Dashboard** | Visual analytics | Charts, tables, KPI cards, trends, insights |
+
+---
+
+## 🎯 How to Use
+
+### **Opening the Dashboard**
+
+1. **Download & Open**
+   
+2. **Navigate to Dashboard**
+- Click the **Dashboard** sheet tab at the bottom
+- Use navigation buttons or hyperlinks to explore sections
+- All charts and tables update automatically
+
+3. **Interact with Data**
+- Hover over charts to view detailed tooltips
+- Use filter dropdowns to drill down into specific segments
+- Click chart elements for conditional formatting highlights
+- Scroll through tables to explore detailed metrics
+
+### **Updating Data**
+
+1. **Add New Transactions**
+- Go to **Raw Data** or **Sales Transactions** sheet
+- Add new rows following the existing format exactly
+- Ensure date format consistency (MM/DD/YYYY)
+- Dashboard updates automatically via formulas
+
+2. **Refresh Calculations**
+- Press `Ctrl+Shift+F9` to recalculate all formulas
+- Verify dashboard updates with latest data
+- Check for any error values (#DIV/0!, #N/A, etc.)
+
+3. **Export Reports**
+- Select dashboard area (Ctrl+A or manual selection)
+- Copy and paste to PowerPoint for presentations
+- Paste to Word for formal reports
+- Preserve formatting by using Paste Special > Format
+
+### **Customization**
+
+- **Change Date Range**: Modify date filters in dashboard
+- **Add New Metrics**: Insert formulas in Calculations sheet
+- **Update Products**: Edit Product Catalog sheet
+- **Adjust Colors**: Use Format menu for conditional formatting
+
+---
+
+## ✨ Getting Started
+
+### **Prerequisites**
+
+- **Microsoft Excel 2016** or newer (recommended: 2019/365)
+- Alternative: **Google Sheets** (limited functionality)
+- Alternative: **LibreOffice Calc** (compatible with some limitations)
+- Minimum: **100 MB** free disk space
+- Screen resolution: **1920x1080** recommended for dashboard
+
+### **Installation Steps**
+
+1. **Clone/Download Repository**
+```bash
+git clone https://github.com/ApooorvaM/e-commerce_excel_project.git
+cd e-commerce_excel_project
+open "e comm project.xlsx"
+# or
+start "e comm project.xlsx"
+
+⭐ If you find this project helpful, please star it on GitHub!
+For questions or support, open an issue in the repository.
+
+Built with ❤️ for E-Commerce Analytics
